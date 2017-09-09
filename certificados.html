@@ -1,0 +1,306 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Site oficial do Programa de Educação Tutorial da UFMG">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>PETEE UFMG</title>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=pt-BR">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js"></script>
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style> 
+    <link rel="shortcut icon" href="images/logo_manual_oficial.png">   
+  </head>
+
+
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+            <img class="android-logo-image-top" src="images/logo_vertical_antiga.png">
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>
+          </div>
+           <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="manual_eletrica.html">Home</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="curriculo_interativo.html">Currículo Interativo</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="disciplinas.html">Disciplinas</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="atividades_extracurriculares.html">Atividades Extracurriculares</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="certificados.html">Certificados</a>
+              <!-- <a class="mdl-navigation__link mdl-typography--text-uppercase" href="Integralizacao.html">Integralização</a> -->
+              
+              <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+                <i class="material-icons">more_vert</i>
+              </button>
+              <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+                <li class="mdl-menu__item">Matrícula</li>
+                <li class="mdl-menu__item" href="">Comprovação de Estudos</li>
+                <li class="mdl-menu__item" href="">Intercâmbio</li>
+                <li class="mdl-menu__item" href="">Monitoria/IC/Estágio</li>
+                <li class="mdl-menu__item" href="">Aproveitamento de estudos</li>
+                <li class="mdl-menu__item" href="">Trancamento</li>
+                <li class="mdl-menu__item" href="">Seção de Ensino</li>
+                <li class="mdl-menu__item" href="">FUMP/CEU</li>
+                <li class="mdl-menu__item" href="">Eventos</li>
+                <li class="mdl-menu__item" href="">Carteirinha de Estudante</li>
+                <li class="mdl-menu__item" href="">Contato Professores</li>
+                <li disabled class="mdl-menu__item" href="">Salas</li>
+                <li disabled class="mdl-menu__item" href="">Mapas</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image-left" src="images/logo_Vertical_pp.png">
+        </span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="manual_eletrica.html">Home</a>
+          <a class="mdl-navigation__link" href="curriculo_interativo.html">Currículo Interativo</a>
+          <a class="mdl-navigation__link" href="disciplinas.html">Disciplinas</a>
+          <a class="mdl-navigation__link" href="atividades_extracurriculares.html">Atividades Extracurriculares</a>
+          <a class="mdl-navigation__link" href="certificados.html">Certificados</a>
+          <!-- <a class="mdl-navigation__link" href="Integralizacao.html">Integralização</a> -->
+          <a class="mdl-navigation__link" href="">Matrícula</a>
+          <a class="mdl-navigation__link" href="">Comprovação de Estudos</a>
+          <a class="mdl-navigation__link" href="">Intercâmbio</a>
+          <a class="mdl-navigation__link" href="">Monitoria/IC/Estágio</a>
+          <a class="mdl-navigation__link" href="">Aproveitamento de Estudos</a>
+          <a class="mdl-navigation__link" href="">Trancamento</a>
+          <a class="mdl-navigation__link" href="">Seção de Ensino</a>
+          <a class="mdl-navigation__link" href="">FUMP/CEU</a>
+          <a class="mdl-navigation__link" href="">Eventos</a>
+          <a class="mdl-navigation__link" href="">Carteirinha de Estudante</a>
+          <a class="mdl-navigation__link" href="">Contato Professores</a>
+        </nav>
+      </div>
+
+      <div class="manual-content mdl-layout__content">
+        
+        
+        <section id="disciplinas" >
+        <div class="container">
+
+            <div class="android-section-header">
+                <h2 class="android-section-title mdl-typography--text-center  mdl-typography--display-1-color-contrast">Certificados</h2>
+                <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">Na Engenharia Elétrica você pode se especializar em uma área com a qual se identifica mais.
+                Isso acontece através dos Certificados de Estudos, que são baseados em grandes áreas de
+                conhecimento dentro do curso. As cinco principais áreas são: </p>
+            </div>
+
+            <div style="padding-top: 60px;">
+              <h3 class="mdl-typography--text-left  mdl-typography--headline"><i class="material-icons">chevron_right</i>Computação</h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="manual-card manual-card-1">
+                      <img src="images/manual/certificados/computacao.jpg">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                   <p class="manual-text-info-certificados mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                      A trajetória de Computação no Curso de Engenharia Elétrica abrange um
+                      conjunto de habilidades que permite o engenheiro analisar, conceber, implementar e adaptar
+                      sistemas de computação. O Certificado de Estudos deve prover uma formação que inclui a
+                      arquitetura do computador nos níveis de hardware e software, a organização através de redes
+                      e as aplicações de tais sistemas na solução de problemas de engenharia.
+                    </p>
+                </div>
+               </div>
+            </div>
+
+            <div style="padding-top: 60px;">
+              <h3 class="mdl-typography--text-left  mdl-typography--headline"><i class="material-icons">chevron_right</i>Controle de Processos</h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="manual-card manual-card-1">
+                      <img src="images/manual/certificados/controle.jpg">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                   <p class="manual-text-info-certificados mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                      A trajetória de Controle de Processos engloba um conjunto de
+                      disciplinas que permite a um profissional analisar, conceber, implementar e adaptar sistemas
+                      de controle de processos industriais, bem como os equipamentos e subsistemas específicos
+                      desses sistemas. O profissional deve estar potencialmente apto a atuar tanto nas empresas de
+                      engenharia e nas indústrias de produção de software e equipamentos para automação
+                      industrial, quanto nas indústrias usuárias da automação.
+                    </p>
+                </div>
+              </div>
+            </div> 
+
+            <div style="padding-top: 60px;">
+              <h3 class="mdl-typography--text-left  mdl-typography--headline"><i class="material-icons">chevron_right</i>Eletrônica de Potência</h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="manual-card manual-card-1">
+                      <img src="images/manual/certificados/elt.jpg">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                   <p class="manual-text-info-certificados mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                      A Eletrônica de Potência é a área da Engenharia Elétrica que tem
+                      como finalidade a conversão da energia das formas mecânica, solar, eólica, química e outras
+                      para energia elétrica e seu processamento nesta última forma, levando-se em consideração a
+                      qualidade, o rendimento, a atualização tecnológica e Operação confiável do sistema. Os
+                      campos de aplicação abrangem os setores industrial, comercial, de serviços e utilidades
+                      domésticas, automotivo, manipuladores robóticos, biomédico e outros. O engenheiro
+                      especialista em Eletrônica de Potência estará preparado para atuar nas áreas de
+                      desenvolvimento de produtos, indústria de transformação e produção de energia elétrica.
+                    </p>
+                </div>
+              </div>
+            </div>
+
+            <div style="padding-top: 60px;">
+              <h3 class="mdl-typography--text-left  mdl-typography--headline"><i class="material-icons">chevron_right</i>Sistemas de energia elétrica</h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="manual-card manual-card-1">
+                      <img src="images/manual/certificados/see.jpeg">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                   <p class="manual-text-info-certificados mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                      Por Sistemas de Energia Elétrica (SEE) entende-se o conjunto de
+                      conhecimentos que habilitem um profissional a atuar na implantação e operação dos sistemas
+                      de energia elétrica, bem como no planejamento de sua expansão, e no projeto dos
+                      equipamentos específicos empregados no sistema. O profissional formado estará
+                      potencialmente apto a participar das equipes de projeto, análise e planejamento na indústria,
+                      nas empresas de engenharia e concessionárias, bem como desenvolver seus próprios
+                      empreendimentos.
+                    </p>
+                </div>
+              </div>
+            </div>
+
+            <div style="padding-top: 60px;">
+              <h3 class="mdl-typography--text-left  mdl-typography--headline"><i class="material-icons">chevron_right</i>Telecomunicações</h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="manual-card manual-card-1">
+                      <img src="images/manual/certificados/telecom.jpg">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                   <p class="manual-text-info-certificados mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                      Por Telecomunicações entende-se o conjunto de disciplinas que permite a
+                      um profissional analisar, conceber, implementar e adaptar produtos ou sistemas de
+                      comunicação independentes ou aplicados a outros processos e mecanismos de tratamento da
+                      informação. sistemas de comunicação, comunicação de dados, comunicações sem fio e
+                      radiodifusão.
+                    </p>
+                </div>
+              </div>
+            </div>
+
+
+            <div style="padding-top: 60px;">
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                Além desses Certificados, também é possível escolher os Certificados de Estudos Abertos, que
+                são uma opção de substituição aos certificados de estudos já estabelecidos. São eles:
+                <ul class="manual-text-info  mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                  <li>Engenharia de Áudio</li>
+                  <li>Robótica</li>
+                  <li>Engenharia Biomédica</li>
+                  <li>Microeletrônica</li>
+                  <li>Fontes alternativas de energia</li>
+                </ul>
+              </p>
+
+
+
+
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                O Certificado de Estudos padrão é o de Sistemas de Energia Elétrica, e a grade curricular é, a
+                princípio, baseada nele. Caso você se interesse por alguma outra área, após ter cursado no
+                mínimo 6 semestres você pode solicitar no colegiado do curso a sua mudança de certificado.
+              </p>
+              <p class="manual-text-info mdl-typography--text-left mdl-typography--font-light mdl-typography--subhead-color-contrast">
+                Se quiser saber mais detalhes sobre os Certificados, é só entrar no link
+                <a href="http://www.eletrica.eng.ufmg.br/Docs/Projeto_Pedagogico_Eletrica_30-09-2009.pdf">http://www.eletrica.eng.ufmg.br/Docs/Projeto_Pedagogico_Eletrica_30-09- 2009.pdf</a> e ler da
+                página 31 à 43.
+              </p>
+            </div>
+
+
+           
+
+           
+    </section><!--/#about-->
+        
+    <div class="petee-footer mdl-mini-footer__left-section">
+              <div class="mdl-logo petee-footer-content">&copy; 2017 PETEE UFMG</div> -->
+              <!-- MDL Footer link-list -->
+                <ul class="mdl-mini-footer__link-list petee-footer-content">
+                  <li><a href="https://www.facebook.com/peteeUFMG?ref=ts&fref=ts"><img src="images/facebook.png"></a></li>
+                  <li><a href="https://www.instagram.com/petee.ufmg/"><img src="images/instagram.png"></a></li>
+                  <li><a href="https://www.youtube.com/channel/UCwyWA8kHfFoJq6nnlEeC3xw"><img src="images/youtube-play.png"></a></li>
+                </ul>
+            </div>
+        
+        </div>
+        <!--Section: Contact-->
+      </div>
+      </div>
+
+
+
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="js/mousescroll.js"></script> 
+
+    
+    
+  </body>
+</html>
