@@ -799,6 +799,7 @@ embed {
   
    .petee-membros-col {
      width: calc(100% - 10px);
+     font-size: 20px;
      padding-left: 5px;
    }
 }
