@@ -540,58 +540,40 @@ a img{
 
 
 
-/* TENTATIVA RESPONSIVIDADE LUÍSA- Inicio */
+
+
+
 
 @media (min-width: 576px) {
-  .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-@media (min-width: 576px) {
-  .container {
+  .android-container {
     width: 540px;
     max-width: 100%;
   }
 }
 
 @media (min-width: 768px) {
-  .container {
+  .android-container {
     width: 720px;
     max-width: 100%;
   }
 }
 
+@media (max-width: 900px) {
+  .android-container {
+    width : 855px;
+    max-width: 100%;
+  }
+  
+
 @media (min-width: 992px) {
-  .container {
+  .android-container {
     width: 960px;
     max-width: 100%;
   }
 }
 
 @media (min-width: 1200px) {
-  .container {
+  .android-container {
     width: 1140px;
     max-width: 100%;
   }
@@ -627,7 +609,7 @@ embed {
 /*  Fim */
 
 /**** Mobile layout ****/
-@media (max-width: 900px) {
+/****@media (max-width: 900px) {
   .android-navigation-container {
     display: none;
   }
@@ -644,9 +626,6 @@ embed {
     transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  /* WebViews in iOS 9 break the "~" operator, and WebViews in OS X 10.10 break
-     consecutive "+" operators in some cases. Therefore, we need to use both
-     here to cover all the bases. */
   .android.android-search-box.is-focused ~ .android-mobile-title,
   .android-search-box.is-focused + .android-navigation-container + .android-mobile-title {
     opacity: 0;
@@ -701,7 +680,7 @@ embed {
   .android-footer .mdl-mega-footer--bottom-section {
     display: none;
   }
-}
+} ****/
 
 @media (min-width: 576px) {
   .android-navigation-container{
