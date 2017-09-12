@@ -609,7 +609,7 @@ embed {
 /*  Fim */
 
 /**** Mobile layout ****/
-/****@media (max-width: 900px) {
+@media (max-width: 900px) {
   .android-navigation-container {
     display: none;
   }
@@ -680,7 +680,7 @@ embed {
   .android-footer .mdl-mega-footer--bottom-section {
     display: none;
   }
-} ****/
+}
 
 @media (min-width: 576px) {
   .android-navigation-container{
