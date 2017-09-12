@@ -791,10 +791,15 @@ embed {
   .android-footer .mdl-mega-footer--bottom-section {
     display: none;
     width: 100%;
-   margin-top: 2.4em;
-   margin-bottom: 2.4em;
-   float: left;
-   clear: both;
+    margin-top: 2.4em;
+    margin-bottom: 2.4em;
+    float: left;
+    clear: both;
+   }
+  
+   .petee-membros-col {
+     height: 200px;
+   }
 }
 
 /* Tentativa de aplicação de clearfix */
