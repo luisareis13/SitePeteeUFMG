@@ -545,35 +545,35 @@ a img{
 
 
 @media (min-width: 576px) {
-  .android-container {
+  .android-navigation-container {
     width: 540px;
     max-width: 100%;
   }
 }
 
 @media (min-width: 768px) {
-  .android-container {
+  .android-navigation-container {
     width: 720px;
     max-width: 100%;
   }
 }
 
 @media (max-width: 900px) {
-  .android-container {
+  .android-navigation-container {
     width : 840px;
     max-width: 100%;
   }
   
 
 @media (min-width: 992px) {
-  .android-container {
+  .android-navigation-container {
     width: 960px;
     max-width: 100%;
   }
 }
 
 @media (min-width: 1200px) {
-  .android-container {
+  .android-navigation-container {
     width: 1140px;
     max-width: 100%;
   }
