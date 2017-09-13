@@ -909,8 +909,14 @@ a img{
   .android-navigation-container{
     padding-right: 15px;
     padding-left: 15px;
-	width: 1140px;
+    width: 1140px;
     max-width: 100%;
+   }
+  .petee-membros-col {
+    font-size: 16px;
+    margin: 0 16px;
+    padding-top: 8px;
+  }
 }
 
 /*Adicional*/
