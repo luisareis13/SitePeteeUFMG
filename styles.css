@@ -813,6 +813,10 @@ a img{
   .android-search-box.is-focused {
     width: calc(100% - 48px);
   }
+  
+  .mdl-card__title mdl-card--expand {
+    width: calc(100% - 48px);
+  }
 
   .android-search-box .mdl-textfield__expandable-holder {
     width: 100%;
