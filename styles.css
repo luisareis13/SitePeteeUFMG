@@ -789,18 +789,44 @@ a img{
   padding-top: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
 /**** Mobile layout ****/
-@media (max-width: 900px) {
+@media screen and (min-width: 760px) {
+  
+  .mdl-logo{
+    float:left;
+    margin-bottom:0;
+    margin-right:16px
+  }
+  .mdl-mini-footer{
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-flex-flow:row wrap;
+    -ms-flex-flow:row wrap;
+    flex-flow:row wrap;
+    -webkit-justify-content:space-between;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    padding:32px 16px;
+  }
+  .mdl-mini-footer .mdl-logo{
+    line-height:36px
+  }
+  .mdl-mini-footer--link-list,.mdl-mini-footer__link-list{
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-flex-flow:row nowrap;
+    -ms-flex-flow:row nowrap;
+    flex-flow:row nowrap;
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+  .mdl-mini-footer--link-list li,.mdl-mini-footer__link-list li{
+    margin-bottom:0;
+    margin-right:16px;
+  }
   .android-navigation-container {
     display: none;
   }
