@@ -814,7 +814,7 @@ a img{
     width: calc(100% - 48px);
   }
   
-  .mdl-card__title mdl-card--expand {
+  .petee-card-square mdl-card mdl-shadow--2dp {
     width: calc(100% - 48px);
   }
 
