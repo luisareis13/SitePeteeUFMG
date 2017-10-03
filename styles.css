@@ -52,7 +52,7 @@ a img{
   right: 20%;
   bottom: -26px;
   z-index: 3;
-  background: #64ffda  !important;
+  background: #8bc34a  !important;
   color: black!important
 }
 
@@ -151,7 +151,7 @@ a img{
 
   .android-drawer-separator {
     height: 1px;
-    background-color: #dcdcdc;
+    background-color: #8bc34a;
     margin: 8px 0;
   }
 
