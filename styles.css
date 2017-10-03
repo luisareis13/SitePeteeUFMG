@@ -78,12 +78,12 @@ a img{
 }
 
   .android-header .material-icons {
-    color: #767777 !important;
+    color: #8bc34a !important;
   }
 
   .android-header .mdl-layout__drawer-button {
     background: transparent;
-    color: #767777;
+    color: #8bc34a;
   }
 
   .android-header .mdl-navigation__link {
@@ -151,7 +151,7 @@ a img{
 
   .android-drawer-separator {
     height: 1px;
-    background-color: #8bc34a;
+    background-color: #dcdcdc;
     margin: 8px 0;
   }
 
