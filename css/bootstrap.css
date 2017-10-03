@@ -754,7 +754,7 @@ pre code {
   overflow-y: scroll;
 }
 
-.container {
+.android-navigation-container {
   position: relative;
   margin-left: auto;
   margin-right: auto;
