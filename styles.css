@@ -858,7 +858,7 @@ a img{
 }
 
 @media screen and (max-width: 767px) {
-  .android-header .control-nav {
+  .android-header{
     position: absolute;
     right: 20px;
     top: 20px;
@@ -870,44 +870,5 @@ a img{
     z-index: 2;
     cursor: pointer;
   }
-
-  .adroid-header .control-nav:before {
-    content: "";
-    display: block;
-    height: 3px;
-    background: #333;
-  }
-
-  .android-header .control-nav-close {
-    position: fixed;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    display: block;
-    z-index: 1;
-    background: rgba(0,0,0,0.4);
-    -webkit-transition: all 500ms ease;
-    transition: all 500ms ease;
-    -webkit-transform: translate(100%, 0);
-    -ms-transform: translate(100%, 0);
-    transform: translate(100%, 0);
-  }
-
-  .android-header nav {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 250px;
-    border-left: 1px solid #ccc;
-    background: #fff;
-    overflow-x: auto;
-    z-index: 2;
-    -webkit-transition: all 500ms ease;
-    transition: all 500ms ease;
-    -webkit-transform: translate(100%, 0);
-    -ms-transform: translate(100%, 0);
-    transform: translate(100%, 0);
   }
 }
