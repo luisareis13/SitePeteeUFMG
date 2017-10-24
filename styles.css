@@ -791,7 +791,7 @@ a img{
 
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-device-width: 320px) {
   .petee-card-square {
      margin: 6px;
   }
@@ -848,6 +848,63 @@ a img{
     }
 }
 
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 560px){
+  .petee-card-square {
+    margin: 7px;
+  }
+
+  .petee-card-square.mdl-card {
+    width: 80px;
+    height: 80px;
+  }
+  .petee-card-square > .mdl-card__title {
+    color: #fff;
+    background-color:#01579b;
+  }
+
+  .petee-membros-col {
+     padding-right: 7px;
+  }
+  
+  .android-navigation-container {
+    /* Simple hack to make the overflow happen to the left instead... */
+    direction: rtl;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 160px;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .android-navigation {
+    /* ... and now make sure the content is actually LTR */
+    direction: ltr;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 330px;
+  }
+
+  .android-search-box.is-focused + .android-navigation-container {
+    opacity: 0;
+    width: 32px;
+  }
+
+
+  .android-navigation .mdl-navigation__link {
+    display: inline-block;
+    height: 20px;
+    line-height: 21px;
+    background-color: transparent !important;
+    border-bottom: 1px solid transparent;
+  }
+
+    .android-navigation .mdl-navigation__link:hover {
+      border-bottom: 1px solid #0D47A1;
+    }
+}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
   .petee-card-square {
     margin: 15px;
