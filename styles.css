@@ -71,6 +71,14 @@ a img{
   width: 140px;
 }
 
+.android-header {
+  min-height: 60px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
 
 .android-header {
   overflow: visible;
@@ -808,14 +816,6 @@ a img{
   .petee-membros-col {
     padding-right: 6px;
   }
-
-
-
-  .android-header .mdl-navigation__link {
-    color: #757575;
-    font-weight: 218;
-    font-size: 4px;
-  }
 }
 
 
@@ -836,16 +836,7 @@ a img{
   .petee-membros-col {
      padding-right: 7px;
   }
-  
 
-
-
-  
-    .android-header .mdl-navigation__link {
-    color: #757575;
-    font-weight: 270;
-    font-size: 5px;
-  }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
   .petee-card-square {
@@ -864,16 +855,71 @@ a img{
   .petee-membros-col {
      padding-right: 15px;
   }
-  
+}
 
+@media screen and (max-width: 767px) {
+  .android-header .control-nav {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: block;
+    width: 30px;
+    padding: 5px 0;
+    border: solid #333;
+    border-width: 3px 0;
+    z-index: 2;
+    cursor: pointer;
+  }
 
+  .adroid-header .control-nav:before {
+    content: "";
+    display: block;
+    height: 3px;
+    background: #333;
+  }
 
+  .android-header .control-nav-close {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    z-index: 1;
+    background: rgba(0,0,0,0.4);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    -webkit-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+  }
 
-  
-    .android-header .mdl-navigation__link {
-    color: #757575;
-    font-weight: 525;
-    font-size: 10px;
+  .android-header nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    border-left: 1px solid #ccc;
+    background: #fff;
+    overflow-x: auto;
+    z-index: 2;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    -webkit-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
   }
 }
 
+#control-nav:checked ~ .control-nav-close {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+#control-nav:checked ~ nav {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
