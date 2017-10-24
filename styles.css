@@ -843,9 +843,14 @@ a img{
     border-bottom: 1px solid transparent;
   }
 
-    .android-navigation .mdl-navigation__link:hover {
+  .android-navigation .mdl-navigation__link:hover {
       border-bottom: 1px solid #0D47A1;
-    }
+  }
+  .android-header .mdl-navigation__link {
+    color: #757575;
+    font-weight: 218;
+    font-size: 4px;
+  }
 }
 
 
@@ -901,9 +906,15 @@ a img{
     border-bottom: 1px solid transparent;
   }
 
-    .android-navigation .mdl-navigation__link:hover {
+  .android-navigation .mdl-navigation__link:hover {
       border-bottom: 1px solid #0D47A1;
     }
+  
+    .android-header .mdl-navigation__link {
+    color: #757575;
+    font-weight: 270;
+    font-size: 5px;
+  }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
   .petee-card-square {
@@ -960,5 +971,11 @@ a img{
     .android-navigation .mdl-navigation__link:hover {
       border-bottom: 3px solid #0D47A1;
     }
+  
+    .android-header .mdl-navigation__link {
+    color: #757575;
+    font-weight: 525;
+    font-size: 10px;
+  }
 }
 
