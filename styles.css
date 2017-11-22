@@ -641,7 +641,7 @@ a img{
   background: #7986cb;
   background-size: cover;
   color: white;
-  padding-top: 50px;
+  padding-top: 20px;
   height: 950px;
 }
 
@@ -667,7 +667,7 @@ a img{
 #intro {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 60%;
 
   width: 100%;
   text-align: center;
