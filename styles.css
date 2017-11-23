@@ -641,7 +641,7 @@ a img{
   background: #7986cb;
   background-size: cover;
   color: white;
-  padding-top: 20px;
+  padding-top: 50px;
   height: 750px;
 }
 
@@ -659,7 +659,7 @@ a img{
 }
 
 #particles {
-  width: 100%;
+  width: 60%;
   height: 100%;
   overflow: hidden;
 }
